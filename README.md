@@ -13,11 +13,8 @@
 ## Этапы проекта
 <img width="1898" height="883" alt="image" src="https://github.com/user-attachments/assets/5405ccb1-f482-40ee-8efe-8186a84c6f5c" />
 
-## Парсинг данных
-Импорт библиотек: 
-- Selenium – для сбора данных
-- Pandas – для обработки данных  
-
-
-
+## Документация к проекту
+Код представлен в файле "project.ipynb". 
+Дополнительные пребразования представлены в файле "SQL преобразования"
+Словарь данных расположен по ссылке https://docs.google.com/spreadsheets/d/1c5fmJmhp0lQgc71pu6ZeqfF7x3zQQxdTC6rca1Zoe8k/edit?pli=1&gid=0#gid=0
 
