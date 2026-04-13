@@ -17,4 +17,5 @@
 - Код представлен в файле "project.ipynb". 
 - Дополнительные пребразования представлены в файле "SQL преобразования"
 - Словарь данных расположен по ссылке https://docs.google.com/spreadsheets/d/1c5fmJmhp0lQgc71pu6ZeqfF7x3zQQxdTC6rca1Zoe8k/edit?pli=1&gid=0#gid=0
+- Визуализация в DataLens https://datalens.yandex/fvtmqjyxtnjy1
 
