@@ -1,0 +1,20 @@
+SELECT *,
+CASE 
+    WHEN district = 'Паттайя' THEN district
+    WHEN district = 'Пхукет' THEN district  
+    WHEN district = 'Као Лак' THEN district 
+    WHEN city = 'Паттайя' THEN city
+    WHEN city = 'Пхукет' THEN city 
+    ELSE NULL -- или другое значение по умолчанию
+END AS modified_city,
+CASE 
+    WHEN district = 'Паттайя' THEN NULL
+    WHEN district = 'Пхукет' THEN NULL  
+    ELSE district -- или другое значение по умолчанию
+END AS modified_district,
+CASE 
+    WHEN city like '%до моря' THEN SUBSTR(city, 1, INSTR(city, ' м') + 1)
+    WHEN meters_sea = 'Нет данных' THEN NULL 
+    ELSE meters_sea -- или другое значение по умолчанию
+END AS modified_meters_sea
+FROM tailand
